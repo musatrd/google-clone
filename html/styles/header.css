@@ -1,0 +1,61 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.gmail {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    flex: 1;
+}
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0px 10px;
+}
+.gmail:hover, .images:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+.apps-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+    font-weight: 700;
+    padding: 7px 7px;
+}
+.apps-icon:hover {
+    background-color: rgb(243, 243, 243);
+    border: 0 solid rgb(243, 243, 243);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.channel-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.channel-profile img {
+    margin: 0 20px 0 10px;
+    border-radius: 20px;
+    height: 30px;
+    border: 3px solid rgb(255, 255, 255);
+}
+.channel-profile:hover img{
+    border: 3px solid rgb(243, 243, 243);
+    border-radius: 27px;
+    cursor: pointer;
+}
